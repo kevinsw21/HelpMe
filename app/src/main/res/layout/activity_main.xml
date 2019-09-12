@@ -11,17 +11,17 @@
         android:id="@+id/fl_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
 
-    <android.support.design.widget.BottomNavigationView
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bn_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@color/colorPrimary"
         app:itemIconTint="@drawable/state_menu"
-        app:itemTextColor="@drawable/state_menu"
         app:menu="@menu/bottom_nav_menu" />
-
 
 </RelativeLayout>
